@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Gugi';
+    src: url(Polices/Gugi/Gugi-Regular.ttf);
+}
+
+html , body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image:url(Images/murneon.jpg) ;
+}
+
+header {
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: static;
+    margin-top: 15px;
+    border-radius: 20%;
+    border: 10px double rgb(24, 24, 105);
+}
+
+div {
+    height: 50px;
+    border-radius: 15%;
+    margin-left: 10%;
+    width: 150px;
+    float: left;
+    background-color: rgb(62, 19, 66);
+    margin-top: 45px;
+    color: white;
+    text-align: center;
+    font-family: 'Gugi';
+    border: 2px solid white;
+}
+
+#logo {
+    margin-top: 25px;
+    border-radius: 30%;
+    height: 100px;
+}
+
+#logo1 {
+    height: 100px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+#gauche {
+    float: left;
+    width: 250px;
+    height: 400px;
+    border-style: double;
+    border-color: blue;
+    margin-left: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+#droite {
+    float: right;
+    width: 250px;
+    height: 400px;
+    border-style:double;
+    border-color: red;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#texte{
+    margin-top: 35px;
+}
+
+#droite2 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 1230px;
+    height: 50px;
+    border: 5px double white;
+}
+
+#truck {
+    float: left;
+    margin-top: 125px;
+    margin-left: 350px ;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+#truckimage {
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+th {
+    border: 2px solid white;
+    background-color: black;
+    padding: 7px;
+}
+
+#burgerstitre {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 400px;
+    height: 50px;
+    border: 5px double white;
+}
+
+#burgers {
+    position: relative;
+    top: 100px;
+    left: 65px;
+    color: white;
+    font-family: 'Gugi';
+}
+
+#accompagnementstitre {
+position: absolute;
+    top: 150px;
+    left: 700px;
+    width: 300px;
+    height: 50px;
+    border: 5px double white;
+}
+
+#accompagnements {
+    position: absolute;
+    top: 285px;
+    left: 980px;
+    color: white;
+    font-family: 'Gugi';
+    width: 150px;
+}
+
+#boissonstitre {
+    position: absolute;
+    top: 150px;
+    left: 1150px;
+    width: 400px;
+    height: 50px;
+    border: 5px double white;
+}
+
+#boissons {
+    position: absolute;
+    top: 285px;
+    left: 1430px;
+    color: white;
+    font-family: 'Gugi';
+}
+
+#apropos {
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 800px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+#concorde {
+    height: 650px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#concorde1 {
+    float: left;
+    margin-left: 100px;
+    height: 650px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#tour {
+    height: 650px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#tour1 {
+    position: absolute;
+    right: 100px;
+    top: 185px;
+    height: 650px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#drapeau {
+    position: absolute;
+    top: 600px;
+    left: 625px;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+#drapeau2 {
+    position: absolute;
+    top: 600px;
+    left: 825px;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+#drap{
+    border-radius: 10%;
+}
+
+#drap2{
+    border-radius: 10%;
+}
+
+
+#loc1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gugi';
+}
+
+#loc{
+    position: relative;
+    left: 470px;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+iframe{
+    border-radius: 15%;
+}
+
+#anglais{
+    margin-top: 25px;
+}

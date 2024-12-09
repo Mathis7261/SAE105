@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <title>A propos</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="bloc">
+                <a  href="Index.html">
+                    Accueil
+                </a>
+            </p>
+        </div>
+
+        <div >
+            <p class="bloc">
+                <a  href="Menu.html">
+                    Commander
+                </a>
+            </p>
+        </div>
+
+        <div id="logo">
+            <img id="logo1" src="Images/logonéon.jpg" alt="logo">
+        </div>
+
+        <div>
+            <p class="bloc">
+                <a  href="Localisation.html">
+                    Localisation
+                </a>
+            </p>
+        </div>
+
+        <div>
+            <p class="bloc">
+                <a  href="Apropos.html">
+                    A propos
+                </a>
+            </p>
+        </div>
+    </header>
+    
+    <div id="concorde1">
+        <img id="concorde" src="Images/concorde.jpg" alt="concorde">
+    </div>
+
+    <div id="apropos">
+        <p id="anglais">Le chef Tom était un passionné de technologie mais également un fan de nourriture depuis ses 8 ans. En 2020, pendant la pandémie, le restaurant dans lequel il travaillait a fermé très tôt. Depuis cette période, Tom voulais sortir de chez lui et aller à l'encontre des gens pour les aider en leur préparant des menus de fast food lui même. Il décida alors de préparer ses menus depuis sa maison et les envoyait grâce à une application de livraison. A la fin du confinement, il a directement acheté un food truck électrique qu'il a personnalisé avec différents néons et objets futuristiques pour aller livrer ses clients lui-même dans sa ville. Aujourd'hui, Tom a amélioré ses recettes pour vous offrir les meilleurs burgers bio que vous n'ayez jamais vu. Donc si vous êtes actuellement sur Paris, regardez la localisation de Tom et venez vous régaler !</p>
+    
+    </div>
+
+    <div id="tour1">
+        <img id="tour" src="Images/toureiffel.jpg" alt="toureiffel">
+    </div>
+
+    <div id="drapeau">
+        <img id="drap" src="Images/anglais.png" alt="anglais">
+    </div>
+    <div id="drapeau2">
+        <img id="drap2" src="Images/france.png" alt="francais">
+    </div>
+    
+
+    <script>
+        function mafonction() {
+            var para = document.querySelector("#apropos");
+            para.innerHTML = "Chief Tom was a technology passionate and also a food lover since he was 8 years old. In 2020, during the pandemic, the restaurant he was working for, closed early. Since then, Tom wanted to go outside and meet people to help them during the quarantine by preparing them some 'fast food type' food by his house on a delivery application. At the end of the quarantine, he instantly purchased an electric food truck that he customized with neons and futuristic items to go towards people in his city. Today, Tom upgraded his recipes to offers you the best organic and delicious burgers you have ever seen. If you are in aris right now, check the location of Tom On the map !";
+        }
+        function mafonction2() {
+            var para = document.querySelector("#apropos");
+            para.innerHTML = "Le chef Tom était un passionné de technologie mais également un fan de nourriture depuis ses 8 ans. En 2020, pendant la pandémie, le restaurant dans lequel il travaillait a fermé très tôt. Depuis cette période, Tom voulais sortir de chez lui et aller à l'encontre des gens pour les aider en leur préparant des menus de fast food lui même. Il décida alors de préparer ses menus depuis sa maison et les envoyait grâce à une application de livraison. A la fin du confinement, il a directement acheté un food truck électrique qu'il a personnalisé avec différents néons et objets futuristiques pour aller livrer ses clients lui-même dans sa ville. Aujourd'hui, Tom a amélioré ses recettes pour vous offrir les meilleurs burgers bio que vous n'ayez jamais vu. Donc si vous êtes actuellement sur Paris, regardez la localisation de Tom et venez vous régaler !";
+        }
+
+        document.querySelector("#drap2").addEventListener("click",mafonction2);
+        document.querySelector("#drap").addEventListener("click",mafonction);
+    </script>
+
+    <footer>
+        <p>
+            © Guibout Mathis MMI 2024  
+        </p>
+    </footer>
+</body>
+
+</html>
